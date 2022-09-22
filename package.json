@@ -1,0 +1,20 @@
+{
+  "name": "backpack_feast_choice",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "sh deploy.sh"
+  },
+  "dependencies": {
+    "firebase": "^9.9.2",
+    "vue": "^3.2.13"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  }
+}
