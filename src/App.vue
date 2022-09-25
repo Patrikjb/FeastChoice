@@ -11,12 +11,14 @@
      <!-- links in hamburger menu -->
   </div>
   <div v-if="navIsOpen" class="flex flex-col bg-blue-900 text-white mx-2">
-    <a href="#" class="px-2 py-2 font-semibold">Plan your next meals</a>
-    <a href="#" class="px-2 py-2 font-semibold border-t">Add new recipe</a>
+    <RouterLink to="/" class="px-2 py-2 font-semibold border-b">Home</RouterLink>
+    <a href="#" class="px-2 py-2 font-semibold border-b">Plan your next meals</a>
+    <router-link to="/about" class="px-2 py-2 font-semibold">About</router-link>
   </div>
-  <HomeView />
-  <footer class="mt-6 mx-2 bg-gray-100 py-2 border-t-2 border-blue-900 text-sm opacity-30">Id sed summis fugiat malis, ut noster pariatur laboris si legam possumus de efflorescere, arbitror ubi quid singulis. Amet admodum fidelissimae, aut multos est nulla ne sed fore cillum te nescius id
-    Copyright 2022. For contact: patrik.borenius[at]gmail.com</footer>
+  <RouterView />
+  <footer class="text-center mt-6 mx-2 bg-gray-100 py-2 border-t-2 border-blue-900 text-sm opacity-30">
+    Copyright 2022. For contact: patrik.borenius[at]gmail.com
+  </footer>
 </template>
 
 <script setup>
