@@ -1,20 +1,25 @@
 import { createWebHistory, createRouter} from 'vue-router'
-import About from '../views/AboutView.vue'
-import Home from '../components/HomeView.vue'
+import Init from '../views/Init.vue'
+import Main from '../views/MainMobile.vue'
+import MainMobile from '../views/Main.vue'
 
 const routes = [
     {
         path : "/",
-        name: "Home",
-        component: Home,
-        alias: '/FeastChoice'
+        name: "Root",
+        component: Init,
     },
-
     {
-        path : "/About",
-        name: "About",
-        component: About
+        path : "/Main",
+        name: "Main",
+        component: Main,
+    },
+    {
+        path : "/MainMobile",
+        name: "MainMobile",
+        component: MainMobile,
     }
+
 ]
 
 const router = createRouter({
