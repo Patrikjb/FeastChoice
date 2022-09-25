@@ -1,7 +1,7 @@
 import { createWebHistory, createRouter} from 'vue-router'
 import Init from '../views/Init.vue'
-import Main from '../views/MainMobile.vue'
-import MainMobile from '../views/Main.vue'
+import MainMobile from '../views/MainMobile.vue'
+import Main from '../views/Main.vue'
 
 const routes = [
     {

@@ -20,7 +20,7 @@
     </div>
   <div class="bg-purple1 pb-4 mx-2 border-blue-900 border-t-2 pt-8">
     <div class="mx-2 mt-16 text-white text-3xl font-bold text-center">
-      Never again: what do we eat today?
+      Never again: what do we eat tgoday?
     </div>
     <img class="mt-12 w-3/4 mx-auto" v-bind:src="require('../assets/Healthy_vs_unhealthy_food_vector_flat_illustration-removebg-preview.png')">
     <div class="mx-2 mb-6 text-center mt-6 text-white">
