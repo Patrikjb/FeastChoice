@@ -16,7 +16,7 @@
   </div>
   <HomeView />
   <footer class="mt-6 mx-2 bg-gray-100 py-2 border-t-2 border-blue-900 text-sm opacity-30">Id sed summis fugiat malis, ut noster pariatur laboris si legam possumus de efflorescere, arbitror ubi quid singulis. Amet admodum fidelissimae, aut multos est nulla ne sed fore cillum te nescius id
-    fabulas dolor nescius. Voluptate multos commodo ex in dolor a aliqua.</footer>
+    Copyright 2022. For contact: patrik.borenius[at]gmail.com</footer>
 </template>
 
 <script setup>

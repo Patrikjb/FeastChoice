@@ -10,4 +10,4 @@ Normal families have 10-30 meals they interchange in their normal routine life, 
 
 I also wanted an app that gives and scales me 2-3 meals for each week. Also the meals must last whole week, and we had a problem the meals weren't enough for the whole week.
 
-So FeastChoice began.
+So FeastChoice was born.
