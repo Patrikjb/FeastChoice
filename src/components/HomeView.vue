@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-purple1 pb-4 mx-2 border-blue-900 border-t-2 pt-8">
+  <div class="bg-purple1 pb-4 mx-2 border-blue-900 border-t-2 pt-8
+  lg:border-none">
     <div class="mx-2 mt-16 text-white text-3xl font-bold text-center">
       Never again: what do we eat today?
     </div>
